@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather&family=Nunito+Sans&family=Roboto:wght@400;700&family=Rubik:wght@400;500;700&family=Zen+Antique&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    /* width: 100%;
+    height: 100%; */
+
+   
+    overflow-x: hidden;
+}
+
+
+:root{
+    
+    --color-body: #ffffff;
+    --color-heading: #3c3c3d;
+    --color-base: #ff69d4;
+    --color-base2: #7dd1f6;
+    --color-brand: #b675c9;
+    --color-brand2: #deff58;
+    --font-base: "Zen Antique";
+}
+
+
+body{
+    background-color: var(--color-body);
+    color: var(--color-heading);
+    font-family: var(--font-base), sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--color-heading);
+    
+
+    font-weight: 700;
+
+}
+
+
+.container{
+    max-width: 1030px;
+
+}
+
+
+img{
+    width: 100%;
+}
+
+
+/* HEADER */
+
+
+#logo{
+    width: 150px;
+}
+
+header{
+    background-image: url(https://javiercerveral.github.io/assets/media/Backgrounds-shapes/pinkbg.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    
+}
+
+/* NAV */
+
+
+nav{
+    z-index: 100 !important;
+}
+
+nav ul{
+    text-align: center;
+}
+
+.nav-navbar{
+    background-color: var(--color-base) ;
+}
+
+.nav-link{
+    color: #146182 !important;
+    font-weight: 700;
+}
+
+@media (max-width:992px){
+    .navbar-nav{
+        background-color: #ee8cd2 !important;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    
+    }
+
+    .nav-link{
+        color: var(--color-body)!important;
+    }
+    
+}
+
+
+
+/* HERO SECTION */
+
+
+.titulo{
+   
+    
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    
+    transform: translateY(-50%);
+    
+}
+
+.titulo h2{
+    font-size: 3.5em !important;
+    color: #ffffff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+
+.subtitulo{
+    font-size: 0.4em !important;
+
+}
+
+
+
+/* MENU* */
+
+#row-menu{
+    background-color: var(--color-base);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+/* PRODUCTOS */
+
+#row-productos{
+    background-image: url(https://javiercerveral.github.io/assets/media/Backgrounds-shapes/bluebg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+}
