@@ -36,13 +36,10 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
-
-.container{
+ .container{
     max-width: 1030px;
-
-}
-
-
+    
+} 
 img{
     width: 100%;
 }
@@ -137,6 +134,7 @@ a:hover{
 
 
 
+
 .hero-img{
   
     border-radius: 20px !important;
@@ -170,6 +168,10 @@ a:hover{
   border: 5px solid #ffffff;
 }
 
+#car-container{
+    max-width: 500px;
+    min-width: 300px;
+}
 
 
 
@@ -206,9 +208,12 @@ footer{
 
 .form-control{
     border-radius: 25px;
+
+    
 }
 
 .forma{
+    color: var(--color-body) !important;
     font-size: 1.1rem !important;
     font-weight: 700;
 }
