@@ -57,7 +57,7 @@ img{
 }
 
 header{
-    /* background-image: url(/assets/media/Backgrounds-shapes/); */
+    background-image: url(https://javiercerveral.github.io/sucre/assets/media/Backgrounds-shapes/rosa-azul\ \(1\).png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -134,6 +134,8 @@ a:hover{
 #row-hero{
     background-color: #7dd1f6;
 }
+
+
 
 .hero-img{
   
